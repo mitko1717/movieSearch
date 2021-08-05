@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header-section">
+      <input
+        id="input-field"
+        class="input-field"
+        required
+        type="text"
+        placeholder="search"
+      />
+      <select name="select-type" id="select-type" class="select-type">
+        <option value="movie">MOVIE</option>
+        <option value="series">SERIES</option>
+        <option value="episode">EPISODE</option>
+      </select>
+      <button class="search-btn">SEARCH</button>
+    </header>
+    <div class="container"></div>
+    <ul class="pages"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>

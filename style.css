@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(22, 21, 31);
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-section {
+  width: 100vw;
+  height: 8vh;
+  background: rgb(2, 71, 71);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field {
+  height: 50%;
+  width: 35%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+}
+
+.select-type {
+  width: 15%;
+  height: 50%;
+  outline: none;
+  border: none;
+  margin: 0 1rem;
+  padding: 0.7rem 1rem;
+}
+
+.search-btn {
+  width: 10%;
+  height: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: wheat;
+}
+
+.container {
+  margin: 3% auto 8%;
+  width: 100%;
+  height: 60vh;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie {
+  width: 450px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  margin: 1.4rem;
+}
+
+.movie__poster {
+  width: 150px;
+  height: 200px;
+}
+
+.movie__info {
+  margin-left: 25px;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.movie__name {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.movie__year {
+  font-size: 1rem;
+}
+
+.movie__type {
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 0.5rem;
+}
+
+.details-btn {
+  border: none;
+  outline: none;
+  opacity: 0.9;
+  width: 80px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.pages {
+  width: 90vw;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.page {
+  width: 40px;
+  height: 40px;
+  background: white;
+  color: black;
+  margin: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-page {
+  background: cyan;
+}
